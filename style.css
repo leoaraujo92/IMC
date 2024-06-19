@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 150px;
+    background-color: rgb(17, 17, 17);
+}
+
+div.hero{
+    width: 100%;
+    padding: 30px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+
+a.button{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(13, 92, 49);
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+input{
+    display: block;
+     margin-bottom: 10px;
+     padding: 8px;
+     border: 2px;
+     color: #7e7e7e;
+     background-color: #D9D9D9;
+ }
+
+ select{
+    width: 183px;
+    display: block;
+     margin-bottom: 10px;
+     padding: 5px;
+ }
+ input.submit{
+    background-color: rgb(13, 92, 49);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+
+ div.result{
+    width: 80%;
+    margin: auto;
+ }
+
+
